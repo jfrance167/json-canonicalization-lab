@@ -1,0 +1,123 @@
+{
+  "python": "3.13.7",
+  "platform": "Windows",
+  "checks": {
+    "normal_tests": 22,
+    "optimized_tests": 22,
+    "mutations_assertion_detected": 5,
+    "bandit_findings": 0,
+    "bandit_runtime_demo_lines": 298,
+    "published_pairs": 3,
+    "original_artifacts": 7,
+    "demo_cases": 8
+  },
+  "files": [
+    {
+      "path": "canonical_lab/__init__.py",
+      "length": 99,
+      "sha256": "f541a9c66c04f5fbc6c185cd40f5f4ea4b215cf73f8e4729b567671c22e708b8"
+    },
+    {
+      "path": "canonical_lab/__main__.py",
+      "length": 1947,
+      "sha256": "bc1eb2d552c5fb26ec255574512b513842928839e40a1cb52ddf4ae1c70775a2"
+    },
+    {
+      "path": "canonical_lab/canonical.py",
+      "length": 2010,
+      "sha256": "727aed8932c3b5669aa770c2c8648cd1ceecab0e2c1cd05d698049e9a1b7232b"
+    },
+    {
+      "path": "canonical_lab/contract.py",
+      "length": 4833,
+      "sha256": "3807dd571265a84b415cdad282586e285a56203dbe7cd2248d6d1e2f17baa1ef"
+    },
+    {
+      "path": "canonical_lab/report.py",
+      "length": 2199,
+      "sha256": "5148f2bc2c2a71b2cb362546d4a995fa7bf897345f900062610ad1e5328dc734"
+    },
+    {
+      "path": "samples/demo-cases.json",
+      "length": 1294,
+      "sha256": "1c9f5e53be1d9f767eb4ca364316c0b36aa5666f5038aafdc028fa5090931451"
+    },
+    {
+      "path": "samples/demo-report.json",
+      "length": 10108,
+      "sha256": "25d396ac138e869a638b756133d2bee0c4eb84db73b359e8c4b193741b65d8ad"
+    },
+    {
+      "path": "scripts/demo_reports.py",
+      "length": 2318,
+      "sha256": "a8686877813317d9c56966d1fc217caf5436ab30714b5c0b8590f85d6ad58483"
+    },
+    {
+      "path": "tests/__init__.py",
+      "length": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_canonical.py",
+      "length": 4790,
+      "sha256": "c37d81cf3cf9fb0288cf5537078da2a19f6ca09de831fc6dd1ca056ebaab2b3b"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "length": 5360,
+      "sha256": "5f965d3e2bc670f53f0dae879aa8959cf4506c101cc966eed2a20831063d3f9c"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "length": 3554,
+      "sha256": "267b4ad2aff49012bdfa4bdedeb9469f42b35fb2733912ca5f2d746a75835166"
+    },
+    {
+      "path": "tests/vectors/manifest.json",
+      "length": 3146,
+      "sha256": "e4bcca52cb50904e82956f00059facec9f556b79da1a3a5f9680c0cb64b63c82"
+    },
+    {
+      "path": "tests/vectors/original/input/arrays.json",
+      "length": 62,
+      "sha256": "e503b6d71d1afa595b1c74b1016445c944cd89f90418066b23de1aeda7d17563"
+    },
+    {
+      "path": "tests/vectors/original/input/french.json",
+      "length": 150,
+      "sha256": "03676a951cd8753ac62589f72eb2105cc782c33425418cfe1d517c111f6e5d5a"
+    },
+    {
+      "path": "tests/vectors/original/input/unicode.json",
+      "length": 39,
+      "sha256": "4621864e014d4a805a563f55b9ea20aba4a2d2dc09c7394f625496998c00702c"
+    },
+    {
+      "path": "tests/vectors/original/LICENSE",
+      "length": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "tests/vectors/original/output/arrays.json",
+      "length": 32,
+      "sha256": "099601b171cafed97c333f8878d68e7f8c8f795412adb34b2fdcf0e7c7beac42"
+    },
+    {
+      "path": "tests/vectors/original/output/french.json",
+      "length": 130,
+      "sha256": "d99d0ebdcb0033cb858cfa830ae46bc0fb3309413b271f1da828c89901a27ed5"
+    },
+    {
+      "path": "tests/vectors/original/output/unicode.json",
+      "length": 30,
+      "sha256": "0d99aad92a125196ff887876643fd3206786a84ddce2cee52ba4ad256d2381d3"
+    }
+  ],
+  "limitations": [
+    "implementing-agent self-review",
+    "no hosted CI/CodeQL or Linux run",
+    "integer-only subset",
+    "no origin/profile authentication",
+    "defensive output caps tested at seams"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "repository": "trailofbits/rfc8785.py",
+  "revision": "655cbe02b8761208e3f4cc49e879ab1e328a7dca",
+  "records": [
+    {
+      "path": "test/assets/input/arrays.json",
+      "local": "tests/vectors/original/input/arrays.json",
+      "git_blob": "20e62263c430a205944284778973c7633d5879b1",
+      "length": 62,
+      "sha256": "e503b6d71d1afa595b1c74b1016445c944cd89f90418066b23de1aeda7d17563",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/input/arrays.json"
+    },
+    {
+      "path": "test/assets/output/arrays.json",
+      "local": "tests/vectors/original/output/arrays.json",
+      "git_blob": "5efb93db77cb8aaeffcda0c9bf7c474d5183360b",
+      "length": 32,
+      "sha256": "099601b171cafed97c333f8878d68e7f8c8f795412adb34b2fdcf0e7c7beac42",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/output/arrays.json"
+    },
+    {
+      "path": "test/assets/input/unicode.json",
+      "local": "tests/vectors/original/input/unicode.json",
+      "git_blob": "4b5bc7699670c930aab223a46114c2c5c3e612cd",
+      "length": 39,
+      "sha256": "4621864e014d4a805a563f55b9ea20aba4a2d2dc09c7394f625496998c00702c",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/input/unicode.json"
+    },
+    {
+      "path": "test/assets/output/unicode.json",
+      "local": "tests/vectors/original/output/unicode.json",
+      "git_blob": "ee60fd121be2f97943e77eb16294c211a915faa7",
+      "length": 30,
+      "sha256": "0d99aad92a125196ff887876643fd3206786a84ddce2cee52ba4ad256d2381d3",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/output/unicode.json"
+    },
+    {
+      "path": "test/assets/input/french.json",
+      "local": "tests/vectors/original/input/french.json",
+      "git_blob": "4ff6d3de24ce8a488a205ac97f04c480cbc38ab8",
+      "length": 150,
+      "sha256": "03676a951cd8753ac62589f72eb2105cc782c33425418cfe1d517c111f6e5d5a",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/input/french.json"
+    },
+    {
+      "path": "test/assets/output/french.json",
+      "local": "tests/vectors/original/output/french.json",
+      "git_blob": "2e15cd1b22fe2723596e4ba513e0e269a56939c6",
+      "length": 130,
+      "sha256": "d99d0ebdcb0033cb858cfa830ae46bc0fb3309413b271f1da828c89901a27ed5",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/test/assets/output/french.json"
+    },
+    {
+      "path": "LICENSE",
+      "local": "tests/vectors/original/LICENSE",
+      "git_blob": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "length": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "url": "https://raw.githubusercontent.com/trailofbits/rfc8785.py/655cbe02b8761208e3f4cc49e879ab1e328a7dca/LICENSE"
+    }
+  ]
+}
